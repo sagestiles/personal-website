@@ -1,0 +1,38 @@
+ <html>
+    <body>
+    <div id="title">
+    <h1>Welcome to sage city</h1>
+    <p>Where you experience esctacy at it's peak</p>
+    <button onclick="reach_your_peak_esctasy()">Enter now</button>
+    </div>
+    </body>
+</html>
+<style>
+    body {
+        background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4pYmrI2Ou3KhEF2tFJwaU4MqWT6nZXrqVrh8PmfCRlw&s=10");
+        background-size: cover;
+    }
+h1 {
+    color: gold;
+}
+p {
+    color: brown;
+}
+button:hover{
+    background-color: olive;
+    cursor: pointer;
+    font-size: 20px;
+}
+#title {
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+}
+</style>
+<script>
+
+   function reach_your_peak_esctasy() {
+    document.body.style.background = "url(https://media0.giphy.com/media/v1.Y2lkPTZjMDliOTUyanY5eDF0dTBhcjdtbnd6YWVheHNwNDJ5dWpuM3Jqd3BqdG1xemE3bCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/aQYR1p8saOQla/200.gif)";
+    document.getElementById("title").style.visibility = "hidden";
+   } 
+</script>
