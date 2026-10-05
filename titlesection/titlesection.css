@@ -1,17 +1,22 @@
-h1 {
-    color: #fff3e0;
-}
-p {
-    color: #ffd54f;
-}
-button:hover{
-    background-color: olive;
-    cursor: pointer;
-    font-size: 20px;
+:root{
+    --titlesectionPrimaryColor: #fff3e0;
 }
 #title { 
+    color: var(--titlesectionPrimaryColor);
     text-align: center;
     padding-top: 200px;
     background-image: url("../images/stephan-de-maranthi-zUheoDFhl94-unsplash.jpg");
     background-position: center top;
+}
+.title-section-button{
+    color: var(--titlesectionPrimaryColor);
+    border: solid var(--titlesectionPrimaryColor) 2px;
+    border-radius: 10px;
+    padding: 15px 30px;
+    background-color: transparent;
+}
+
+.title-section-button:hover{
+    background-color: olive;
+    cursor: pointer;
 }
