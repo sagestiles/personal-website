@@ -1,8 +1,8 @@
 h1 {
-    color: gold;
+    color: #fff3e0;
 }
 p {
-    color: brown;
+    color: #ffd54f;
 }
 button:hover{
     background-color: olive;
@@ -12,4 +12,6 @@ button:hover{
 #title { 
     text-align: center;
     padding-top: 200px;
+    background-image: url("../images/stephan-de-maranthi-zUheoDFhl94-unsplash.jpg");
+    background-position: center top;
 }
