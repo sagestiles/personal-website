@@ -1,5 +1,6 @@
 :root{
-    --titlesectionPrimaryColor: #fff3e0;
+    --titlesectionPrimaryColor: rgb(255, 243, 224);
+    --titlesectionSecondaryColor: rgba(184, 140, 101);
 }
 #title { 
     color: var(--titlesectionPrimaryColor);
@@ -14,9 +15,12 @@
     border-radius: 10px;
     padding: 15px 30px;
     background-color: transparent;
+   
 }
 
 .title-section-button:hover{
-    background-color: olive;
+    background-color: var(--titlesectionPrimaryColor);
+    color: var(--titlesectionSecondaryColor);
     cursor: pointer;
+   
 }
