@@ -9,6 +9,15 @@
     background-image: url("../images/stephan-de-maranthi-zUheoDFhl94-unsplash.jpg");
     background-position: center top;
 }
+
+.title-section-header {
+    margin-bottom:-5px;
+
+}  
+
+.title-section-subtitle {
+    margin-bottom: 50px;
+}
 .title-section-button{
     color: var(--titlesectionPrimaryColor);
     border: solid var(--titlesectionPrimaryColor) 2px;
