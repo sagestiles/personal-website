@@ -5,4 +5,17 @@
 .Aboutme-section-description{
     font-size: 18px;
     text-align: justify;
+    margin: 30px;
+}
+
+.Aboutme-icon{
+    font-size: 28px;
+    color: var(--titlesectionSecondaryColor);
+    margin-top: 50px;
+    margin: 10px;
+}
+
+.Aboutme-icon:hover{
+ cursor: pointer;
+ color: var(--titlesectiontertiaryColor);
 }
