@@ -1,0 +1,18 @@
+#Craps-game {
+  background-image: url(../images/Casino.jpg);
+  background-position: center-top;
+  color: white;
+}
+.craps-game-title {
+  text-align: center;
+  margin-top: 100px;
+}
+.craps-game-container {
+    width: min(700px, 80vw);
+    height: min(400px, 60vh);
+    border: 2px solid white;
+    margin: 50px auto 0 auto;
+    background-image: url(../images/casino-table.jpg);
+    background-size: cover;
+    background-position: center-top;
+}
